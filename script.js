@@ -44,11 +44,11 @@ async function searchImg() {
 
         imgLink.appendChild(img);
         searchResult.appendChild(imgLink);
-        searchResult.style.width = '80%';
-        searchResult.style.margin = '100px auto 50px';
-        searchResult.style.display = 'grid';
-        searchResult.style.gridTemplateColumns = '1fr 1fr 1fr 1fr';
-        searchResult.style.gridGap = '20px';
+        // searchResult.style.width = '80%';
+        // searchResult.style.margin = '100px auto 50px';
+        // searchResult.style.display = 'grid';
+        // searchResult.style.gridTemplateColumns = '1fr 1fr 1fr 1fr';
+        // searchResult.style.gridGap = '20px';
     })
 
     showMore.style.display = 'block'

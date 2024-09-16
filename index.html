@@ -7,7 +7,7 @@
     <title>Image Search Engine</title>
 </head>
 <body class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
-    <div class="flex items-center justify-center mt-20">
+    <div class="flex flex-row md:flex-col sm:flex-col items-center justify-center mt-20 ">
     <form id="search">
             <div>
                 <input type="search" id="search-box" placeholder="Type to search image" class="mt-5 p-5 outline-none rounded-l-lg placeholder:italic">
@@ -15,7 +15,7 @@
             </div>
         </form>
     </div>
-    <div id="search-result"></div>
+    <div id="search-result" class="mt-10 grid grid-cols-1 m-10 gap-5 md:grid-cols-4 sm:grid-cols-2 sm:m-10"></div>
     <div class="flex items-center justify-center mt-20">
         <button id="show-more" class=" bg-stone-950 text-white p-4 rounded-lg hover:bg-violet-400 hover:text-black duration-500 mb-10 hidden">Click to more images</button>
     </div>
