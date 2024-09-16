@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
+    <div class="flex items-center justify-center mt-20">
+    <form id="search">
+            <div>
+                <input type="search" id="search-box" placeholder="Type to search image" class="mt-5 p-5 outline-none rounded-l-lg placeholder:italic">
+                <button type="submit" class="bg-stone-950 text-white p-5 rounded-r-lg hover:bg-violet-400 hover:text-black duration-500">Search</button>
+            </div>
+        </form>
+    </div>
+    <div id="search-result"></div>
+    <div class="flex items-center justify-center mt-20">
+        <button id="show-more" class=" bg-stone-950 text-white p-4 rounded-lg hover:bg-violet-400 hover:text-black duration-500 mb-10 hidden">Click to more images</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
